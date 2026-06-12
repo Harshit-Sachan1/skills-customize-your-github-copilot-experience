@@ -1,19 +1,47 @@
 
-# 🎮 Hangman Game Challenge
+# 📘 Assignment: Hangman Game Challenge
 
-Build the classic word-guessing game using Python strings, loops, and user input.
+## 🎯 Objective
 
-## � What You'll Build
+Build a classic Hangman game in Python that uses strings, loops, conditionals, and user input to let players guess a hidden word.
 
-Create a Hangman game where players guess letters to reveal a hidden word before running out of attempts.
+## 📝 Tasks
 
-**Skills practiced:** String manipulation, loops, conditionals, random selection
+### 🛠️ Game Setup
 
-## ✅ Must Have's
+#### Description
+Create a Hangman game that selects a random word from a list and initializes the game state for the player.
 
-Your game must:
-- Randomly select words from a predefined list
-- Accept letter guesses and show current progress (_ _ _ format)
-- Track incorrect guesses remaining
-- End when word is guessed or attempts exhausted
-- Display win/lose messages
+#### Requirements
+Completed program should:
+
+- Use a predefined list of possible words.
+- Randomly select one word at the start of the game.
+- Show the hidden word as blanks, for example `_ _ _ _`.
+- Track the letters guessed so far and remaining attempts.
+
+### 🛠️ Letter Guessing and Progress Display
+
+#### Description
+Implement the core guessing loop that accepts player letters, reveals correct guesses, and updates the game display.
+
+#### Requirements
+Completed program should:
+
+- Accept letter guesses from the player.
+- Reveal matching letters in the hidden word while keeping unguessed letters hidden.
+- Display the current progress after each guess.
+- Prevent repeated penalties for letters that were already guessed.
+
+### 🛠️ Win/Lose Conditions
+
+#### Description
+Complete the game by checking for win or loss conditions and showing the appropriate final message.
+
+#### Requirements
+Completed program should:
+
+- End with a win message when the player guesses the full word.
+- End with a lose message when attempts run out.
+- Show the correct word at the end of the game.
+- Display the number of incorrect guesses remaining throughout play.
