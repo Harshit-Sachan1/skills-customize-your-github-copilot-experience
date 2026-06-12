@@ -65,6 +65,13 @@
       "description": "Create a REST API using FastAPI with JSON endpoints and request validation.",
       "path": "assignments/fastapi-rest-api",
       "dueDate": "2026-07-10"
+    },
+    {
+      "id": "data-exploratory-analysis",
+      "title": "Exploratory Data Analysis with Pandas",
+      "description": "Use Pandas to load, clean, analyze, and visualize a dataset.",
+      "path": "assignments/data-exploratory-analysis",
+      "dueDate": "2026-07-24"
     }
   ]
 }
